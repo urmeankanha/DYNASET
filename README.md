@@ -1,4 +1,4 @@
-# DevTools — Game Calculator Suite
+# DYNASET — Game Calculator Suite
 
 A native C++ desktop app built with **Dear ImGui + SDL2 + OpenGL3**, styled with a dark Gumroad-inspired aesthetic. Designed to be fast, offline, and expandable.
 
