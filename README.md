@@ -33,7 +33,7 @@ brew install sdl2 cmake
 
 ---
 
-## ✦ Build & Run
+##  Build & Run
 
 ### Linux / macOS (Make)
 ```bash
@@ -48,15 +48,7 @@ cmake --build build -j4
 ./build/devtools_calc      # Linux/macOS
 build\Release\devtools_calc.exe   # Windows
 ```
-
-### VS Code
-- Open the folder in VS Code
-- Press `Ctrl+Shift+B` → **Build (Make)** or **Build (CMake)**
-- Press `F5` to debug
-
----
-
-## ✦ Adding a New Calculator
+##  Adding a New Calculator
 
 1. **Define a state struct** in `src/app.h` (like `SpringState`)
 2. **Add an entry** to `GetCalculatorRegistry()` in `src/app.h`
@@ -91,14 +83,3 @@ SpringCalc/
 ```
 
 ---
-
-## ✦ Aesthetic Design Notes
-
-- **Colors**: Deep `#151517` background · `#FF5449` coral accent · `#F1EEE9` warm cream text
-- **Gumroad-inspired**: Minimal nav bar, card grid on landing, coral CTA buttons, physics-illustrated cards
-- **Animations**: Dot grid with sine-wave pulse, per-card hover lift, radial top-right glow
-- **Graph**: Inline step response plot with glow-line rendering, drawn via ImGui DrawList
-
----
-
-*Built for game devs, by a game dev.*
