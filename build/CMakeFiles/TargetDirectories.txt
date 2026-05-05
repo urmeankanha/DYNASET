@@ -1,0 +1,3 @@
+C:/SpringCalc/SpringCalc_output/build/CMakeFiles/devtools_calc.dir
+C:/SpringCalc/SpringCalc_output/build/CMakeFiles/edit_cache.dir
+C:/SpringCalc/SpringCalc_output/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,9 @@
+# ninja log v7
+40	3796	7996750727940276	CMakeFiles/devtools_calc.dir/libs/imgui/backends/imgui_impl_sdl2.cpp.obj	56153317bcad67be
+17	4648	7996750727700246	CMakeFiles/devtools_calc.dir/src/main.cpp.obj	51c7870c3f1dc8fc
+3837	6642	7996750766203453	CMakeFiles/devtools_calc.dir/libs/imgui/backends/imgui_impl_opengl3.cpp.obj	7b2e9a2fe822cca8
+32	6682	7996750727860264	CMakeFiles/devtools_calc.dir/libs/imgui/imgui_tables.cpp.obj	2374d3a725607395
+25	10955	7996750727790256	CMakeFiles/devtools_calc.dir/libs/imgui/imgui_draw.cpp.obj	825e21b3994477ad
+36	12810	7996750727890270	CMakeFiles/devtools_calc.dir/libs/imgui/imgui_widgets.cpp.obj	b29fc364566de840
+21	18100	7996750727740245	CMakeFiles/devtools_calc.dir/libs/imgui/imgui.cpp.obj	904cb50addbab65
+18100	18464	7996750908525216	devtools_calc.exe	b58fb2e06835833d

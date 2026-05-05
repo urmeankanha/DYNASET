@@ -1,0 +1,47 @@
+{
+  "configurations": [
+    {
+      "name": "Linux",
+      "includePath": [
+        "${workspaceFolder}/src",
+        "${workspaceFolder}/libs/imgui",
+        "${workspaceFolder}/libs/imgui/backends",
+        "/usr/include/SDL2",
+        "${workspaceFolder}/**"
+      ],
+      "defines": [],
+      "compilerPath": "/usr/bin/g++",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "linux-gcc-x64"
+    },
+    {
+      "name": "macOS",
+      "includePath": [
+        "${workspaceFolder}/src",
+        "${workspaceFolder}/libs/imgui",
+        "${workspaceFolder}/libs/imgui/backends",
+        "/usr/local/include/SDL2",
+        "${workspaceFolder}/**"
+      ],
+      "defines": [],
+      "compilerPath": "/usr/bin/clang++",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "macos-clang-x64"
+    },
+    {
+      "name": "Win32",
+      "includePath": [
+        "${workspaceFolder}/src",
+        "${workspaceFolder}/libs/imgui",
+        "${workspaceFolder}/libs/imgui/backends",
+        "C:/SDL2/include",
+        "${workspaceFolder}/**"
+      ],
+      "defines": ["_CRT_SECURE_NO_WARNINGS"],
+      "compilerPath": "cl.exe",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "windows-msvc-x64"
+    }
+  ],
+  "version": 4
+}

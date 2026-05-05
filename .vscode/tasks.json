@@ -1,0 +1,48 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build (Make - Linux/macOS)",
+      "type": "shell",
+      "command": "make",
+      "args": ["-j4"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "Run",
+      "type": "shell",
+      "command": "./devtools_calc",
+      "dependsOn": "Build (Make - Linux/macOS)",
+      "group": "test",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "Build (CMake - All Platforms)",
+      "type": "shell",
+      "command": "cmake -B build_cmake -DCMAKE_BUILD_TYPE=Release && cmake --build build_cmake -j4",
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "Clean",
+      "type": "shell",
+      "command": "make clean",
+      "group": "build"
+    }
+  ]
+}
