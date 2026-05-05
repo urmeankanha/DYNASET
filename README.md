@@ -1,10 +1,10 @@
 # DYNASET — Game Calculator Suite
 
-A native C++ desktop app built with **Dear ImGui + SDL2 + OpenGL3**, styled with a dark Gumroad-inspired aesthetic. Designed to be fast, offline, and expandable.
+A native C++ desktop app built with **Dear ImGui + SDL2 + OpenGL3**. Designed to be fast, offline, and expandable.
 
 ---
 
-## ✦ Current Calculators
+##  Current Calculators
 
 | Calculator | Description |
 |---|---|
@@ -12,7 +12,7 @@ A native C++ desktop app built with **Dear ImGui + SDL2 + OpenGL3**, styled with
 
 ---
 
-## ✦ Setup
+##  Setup
 
 ### Prerequisites
 
